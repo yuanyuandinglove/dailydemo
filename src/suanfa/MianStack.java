@@ -1,6 +1,6 @@
-import java.util.Stack;
+package suanfa;
 
-import javax.print.attribute.standard.Sides;
+import java.util.Stack;
 
 
 public class MianStack {
@@ -24,17 +24,17 @@ public class MianStack {
         	if(!myStack.isEmpty()){
                temp = myStack.pop();  
         	}
-            // Õ»Îª¿ÕÊ±Ö»½«cÈëÕ»  
+            // Õ»Îªï¿½ï¿½Ê±Ö»ï¿½ï¿½cï¿½ï¿½Õ»  
             if (temp == null) {  
                 myStack.push(c);  
             }  
-            // Åä¶ÔÊ±c²»ÈëÕ»  
+            // ï¿½ï¿½ï¿½Ê±cï¿½ï¿½ï¿½ï¿½Õ»  
             else if (temp == '[' && c == ']') {  
             }   
-            // Åä¶ÔÊ±c²»ÈëÕ»  
+            // ï¿½ï¿½ï¿½Ê±cï¿½ï¿½ï¿½ï¿½Õ»  
             else if (temp == '(' && c == ')') {  
             }   
-            // ²»Åä¶ÔÊ±cÈëÕ»  
+            // ï¿½ï¿½ï¿½ï¿½ï¿½Ê±cï¿½ï¿½Õ»  
             else {  
                 myStack.push(temp);  
                 myStack.push(c);  

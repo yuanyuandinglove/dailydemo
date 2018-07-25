@@ -1,6 +1,7 @@
-import java.util.ArrayList;
+package suanfa;
+
 import java.util.Scanner;
-import java.util.Stack;
+
 public class ShitString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

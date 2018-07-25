@@ -1,3 +1,4 @@
+package suanfa;
 
 public class O1Beibao {
 
@@ -10,21 +11,21 @@ public class O1Beibao {
    
        
                // TODO Auto-generated method stub  
-              // int[] weight = {3,5,2,6,4}; //物品重量  
-             //  int[] val = {4,4,3,5,3}; //物品价值  
-            //   int k = 12; //背包容量  
-            //   int l = val.length; //物品个数  
+              // int[] weight = {3,5,2,6,4}; //锟斤拷品锟斤拷锟斤拷  
+             //  int[] val = {4,4,3,5,3}; //锟斤拷品锟斤拷值  
+            //   int k = 12; //锟斤拷锟斤拷锟斤拷锟斤拷  
+            //   int l = val.length; //锟斤拷品锟斤拷锟斤拷  
                  
-               int[][] f = new int[n+1][m+1]; //f[i][j]表示前i个物品能装入容量为j的背包中的最大价值  
+               int[][] f = new int[n+1][m+1]; //f[i][j]锟斤拷示前i锟斤拷锟斤拷品锟斤拷装锟斤拷锟斤拷锟斤拷为j锟侥憋拷锟斤拷锟叫碉拷锟斤拷锟斤拷值  
                int[][] path = new int[n+1][m+1];  
-               //初始化第一列和第一行  
+               //锟斤拷始锟斤拷锟斤拷一锟叫和碉拷一锟斤拷  
                for(int i=0;i<f.length;i++){  
                    f[i][0] = 0;  
                }  
                for(int i=0;i<f[0].length;i++){  
                    f[0][i] = 0;  
                }  
-               //通过公式迭代计算  
+               //通锟斤拷锟斤拷式锟斤拷锟斤拷锟斤拷锟斤拷  
                for(int i=1;i<f.length;i++){  
                    for(int j=1;j<f[0].length;j++){  
                        if(w[i-1]>j)  
@@ -51,7 +52,7 @@ public class O1Beibao {
                int j=f[0].length-1;  
                while(i>0&&j>0){  
                    if(path[i][j] == 1){  
-                       System.out.print("第"+i+"个物品装入 ");  
+                       System.out.print("锟斤拷"+i+"锟斤拷锟斤拷品装锟斤拷 ");  
                        j -= w[i-1];  
                    }  
                    i--;  
@@ -62,10 +63,10 @@ public class O1Beibao {
         
 
 	
-	/**n是物品个数长度
-	 * m 是背包的能承受的总种量
-	 * w[]是中联数组
-	 * v[]是价值数组
+	/**n锟斤拷锟斤拷品锟斤拷锟斤拷锟斤拷锟斤拷
+	 * m 锟角憋拷锟斤拷锟斤拷锟杰筹拷锟杰碉拷锟斤拷锟斤拷锟斤拷
+	 * w[]锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+	 * v[]锟角硷拷值锟斤拷锟斤拷
 	 * @param m
 	 * @param p
 	 * @param w

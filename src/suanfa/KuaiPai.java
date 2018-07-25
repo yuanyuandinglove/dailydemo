@@ -1,4 +1,4 @@
-import java.awt.geom.QuadCurve2D;
+package suanfa;
 
 
 public class KuaiPai {

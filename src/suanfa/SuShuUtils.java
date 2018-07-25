@@ -1,4 +1,5 @@
-import java.util.Map;
+package suanfa;
+
 /**
  * ?? ?? n ??????
  * @author Administrator

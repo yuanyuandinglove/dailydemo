@@ -1,3 +1,5 @@
+package suanfa;
+
 import java.util.Scanner;
 
 
@@ -24,7 +26,7 @@ public class Main1 {
 		}
 	}
 	/**
-     * 返回2个数之间素数的个数
+     * 锟斤拷锟斤拷2锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷锟侥革拷锟斤拷
      * @return
      */
   

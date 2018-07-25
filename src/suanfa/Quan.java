@@ -1,3 +1,5 @@
+package suanfa;
+
 public class Quan {
     public static int total = 0;
 

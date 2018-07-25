@@ -1,3 +1,4 @@
+package suanfa;
 
 import java.util.Scanner;
 
@@ -36,7 +37,7 @@ public class Main {
   
 }
     /**
-     * ╢сжп╪ДоРа╫╠ъясиЗ
+     * О©╫О©╫О©╫п╪О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
      * @param s
      * @param left
      * @param right

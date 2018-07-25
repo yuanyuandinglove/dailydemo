@@ -1,3 +1,4 @@
+package suanfa;
 
 public class PaXuUtils {
 
@@ -10,7 +11,7 @@ public class PaXuUtils {
        }
 	}
 	/**
-	 * ²åÈëÅÅĞò
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param n
 	 * @return
 	 */
