@@ -24,7 +24,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="ushelp-EasyOCR-4.2.0-9-g0dea4cd.tar.gz">
         <CLASSES>
           <root url="file://lib/ushelp-EasyOCR-4.2.0-9-g0dea4cd.tar.gz" />
@@ -35,5 +35,6 @@
     </orderEntry>
     <orderEntry type="library" name="jedis-2.9.0" level="project" />
     <orderEntry type="library" name="commons-pool2-2.5.0" level="project" />
+    <orderEntry type="library" name="core-3.3.3" level="project" />
   </component>
 </module>
