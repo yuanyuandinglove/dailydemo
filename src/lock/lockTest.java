@@ -9,12 +9,15 @@ public class lockTest {
 
     public  static  void main(String[] args){
         boolean lockTest = true;
-
         ReentrantLock lock = new ReentrantLock();
         Condition condition = lock.newCondition();
 
+
+
         try {
             lock.lock();
+
+            System.out.println(Boolean.TRUE.equals(true));
             while (lockTest){
                 System.out.print(666);
                 condition.await();

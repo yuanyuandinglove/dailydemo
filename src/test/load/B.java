@@ -8,12 +8,21 @@ public class B extends  A {
         System.out.println("b static");
     }
 
-    void A(){
+    void B(){
         System.out.println("b Normal");
     }
 
     public  static void main(String[] args){
-        new B().A();
-        new B().A();
+     //   new B().A();
+      //  new B().A();
+
+        A a = new B();
+        a.A();
+        ((B) a).B();
+        B b =(B) new A();
+        b.A();
+
+
+
     }
 }
